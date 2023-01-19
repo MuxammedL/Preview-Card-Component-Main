@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    position: relative;
+}
+main{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 300px;
+    height: 520px;
+    border-radius: 15px;
+    background-color: hsl(216, 50%, 16%);
+}
+.inner-info{
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+}
+.img-equ{
+    width: 260px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+h2 a{
+    font-size: 18px;
+    color: #fff;
+    transition: all .3s ease;
+}
+h2 a:hover{
+    color: hsl(178, 100%, 50%);
+}
+.inner-info p{
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-middle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.price{
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 5px;
+    color:hsl(178, 100%, 50%) ;
+}
+.time{
+    padding-left: 5px;
+    font-size: 14px;
+    color:hsl(215, 51%, 70%);
+}
+.avatar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+hr{
+    height: 1px;
+    background-color: hsl(215, 32%, 27%);
+    border: none;
+}
+.avatar img{
+    width: 30px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.avatar p{
+    font-size: 14px;
+}
+.avatar p a{
+    color: #fff;
+}
+.avatar p a:hover{
+    color: hsl(178, 100%, 50%);
+    transition: all .3s ease;
+}
+.cover{
+    display: none;
+    width: 260px;
+    height: 260px;
+    border-radius: 10px;
+    position: absolute;
+    background-color: hsla(178, 100%, 50%, 0.5);
+}
+.img-equ:hover + .cover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.attribution{ 
+    font-size: 16px; 
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.attribution a{ 
+    color: hsl(228, 45%, 44%); 
+}
+@media(max-width:440px){
+    .attribution{ 
+        font-size: 11px; 
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
